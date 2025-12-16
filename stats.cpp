@@ -44,9 +44,12 @@ namespace MeleeStat {
         Coolstats.push_back("Mini-Crit vs. Players Covered In Milk");
         Coolstats.push_back("Mini-Crit vs. Players Covered In Jarate");
         Coolstats.push_back("On hit: Inflict afterburn");
-        Coolstats.push_back("On hit: Inflict wet status");
+        Coolstats.push_back("On hit: Inflict Wet status");
         Coolstats.push_back("On hit: Inflict Overheal");
         Coolstats.push_back("On hit: Inflict Marked-For-Death");
+        Coolstats.push_back("On hit: Inflict Reversed Controls");
+        Coolstats.push_back("On hit: Inflict Afterburn");
+        Coolstats.push_back("On hit: Inflict Cough Virus");
         Coolstats.push_back("No Random Critical Hits");
     }
     //unique abilites that the weapon has
