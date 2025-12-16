@@ -20,6 +20,7 @@ namespace MeleeStat {
     void do_num_stats() {
     Numstats.push_back(" Damage");
     Numstats.push_back(" Range");
+    Numstats.push_back(" Critical Hit Chance");
     }
     //these are the cooler stats a weapon can have
     void do_cool_stats() {
@@ -33,9 +34,20 @@ namespace MeleeStat {
         Coolstats.push_back("Crit vs. Overhealed Players");
         Coolstats.push_back("Crit vs. Players Covered In Milk");
         Coolstats.push_back("Crit vs. Players Covered In Jarate");
+        Coolstats.push_back("Mini-Crit vs. Burning Players");
+        Coolstats.push_back("Mini-Crit vs. Non-Burning Players");
+        Coolstats.push_back("Mini-Crit vs. Wet Players");
+        Coolstats.push_back("Mini-Crit vs. Dry Players");
+        Coolstats.push_back("Mini-Crit vs. Bleeding Players");
+        Coolstats.push_back("Mini-Crit vs. Non-bleeding Players");
+        Coolstats.push_back("Mini-Crit vs. Overhealed Players");
+        Coolstats.push_back("Mini-Crit vs. Players Covered In Milk");
+        Coolstats.push_back("Mini-Crit vs. Players Covered In Jarate");
         Coolstats.push_back("On hit: Inflict afterburn");
         Coolstats.push_back("On hit: Inflict wet status");
         Coolstats.push_back("On hit: Inflict Overheal");
+        Coolstats.push_back("On hit: Inflict Marked-For-Death");
+        Coolstats.push_back("No Random Critical Hits");
     }
     //unique abilites that the weapon has
     void do_ability() {
@@ -80,6 +92,8 @@ namespace GunStat {
         Coolstats.push_back("On hit: Inflict afterburn");
         Coolstats.push_back("On hit: Inflict wet status");
         Coolstats.push_back("On hit: Inflict Overheal");
+        Coolstats.push_back("On hit: Inflict Marked-For-Death");
+        Coolstats.push_back("No Random Critical Hits");
     }
 }
 /*
@@ -119,5 +133,7 @@ namespace projStat {
         Coolstats.push_back("On hit: Inflict afterburn");
         Coolstats.push_back("On hit: Inflict wet status");
         Coolstats.push_back("On hit: Inflict Overheal");
+        Coolstats.push_back("On hit: Inflict Marked-For-Death");
+        Coolstats.push_back("No Random Critical Hits");
     }
 }
