@@ -4,13 +4,13 @@
 MELEE WEAPON STATS
 ---------------------------------------------------------------------------------------------------------------------------------------
 */
-const meleeNum = [
+export const meleeNum = [
     " Damage", 
     " Range", 
     " Swing Speed"
 ];
 
-const meleeCool = [
+export const meleeCool = [
   "on miss: hit yourself, idiot",
   "Crit vs. Burning Players",
   "Crit vs. Non-Burning Players",
@@ -52,7 +52,7 @@ const meleeAbility = [
     "Crits on kill"
 ];
 
-const meleeRare = [
+export const meleeRare = [
     "Become uber'd on kill",
     "Start flying on kill",
     "8s of bleed on hit"
@@ -64,8 +64,7 @@ RANGED WEAPON STATS
 ---------------------------------------------------------------------------------------------------------------------------------------
 */
 
-const gunStats = {
-  stats: [
+  export const rangedstats = [
     " Attack Speed",
     " Damage",
     " Range",
@@ -75,13 +74,13 @@ const gunStats = {
     " Projectile Damage",
     " Reload Speed",
     " Clip size"
-  ],
+  ];
 
-  abilities: [
+  export const rangedabilities = [
     "Collect Heads from your enemies."
-  ],
+  ];
 
-  coolStats: [
+  export const rangedcoolStats = [
     "Mini-Crits vs. Players Marked For Death",
     "Mini-Crits vs. Burning Players",
     "Mini-Crits vs. Non-Burning Players",
@@ -97,15 +96,13 @@ const gunStats = {
     "On hit: Inflict Overheal",
     "On hit: Inflict Marked-For-Death",
     "No Random Critical Hits"
-  ]
-};
+  ];
 /* 
 ---------------------------------------------------------------------------------------------------------------------------------------
 PROJECTILE WEAPON STATS
 ---------------------------------------------------------------------------------------------------------------------------------------
 */
-const projectileStats = {
-  stats: [
+  export const projstats = [
     " Attack Speed",
     " Damage",
     " Range",
@@ -117,13 +114,13 @@ const projectileStats = {
     " Clip size",
     " Explosion Size",
     " Projectile Lifetime"
-  ],
+  ];
 
-  abilities: [
+  export const projabilities = [
     "Collect Heads from your enemies."
-  ],
+  ];
 
-  coolStats: [
+  export const projcoolStats = [
     "Mini-Crits vs. Players Marked For Death",
     "Mini-Crits vs. Burning Players",
     "Mini-Crits vs. Non-Burning Players",
@@ -139,5 +136,4 @@ const projectileStats = {
     "On hit: Inflict Overheal",
     "On hit: Inflict Marked-For-Death",
     "No Random Critical Hits"
-  ]
-};
+  ];
