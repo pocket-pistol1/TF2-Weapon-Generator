@@ -40,7 +40,7 @@ export const meleeCool = [
   "No Random Critical Hits"
 ];
 
-const meleeAbility = [
+export const meleeAbility = [
     "Collect heads from defeated enemies",
     "Gain health on hit.",
     "Heal back your opponents max health on kill",
